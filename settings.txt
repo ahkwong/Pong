@@ -1,0 +1,35 @@
+- Create Folders
+- Drag and Drop assets
+- Configure Pictures: Pixels Per Unit to [1]
+- Configure Pictures: Filter Mode to [Point]
+- Place Walls and Dotted Line [(-)25.5x][(-)15.5y]
+- Set camera to Size [20] and background to [black]
+- Rename Them [WallRight,WallLeft,WallTop,WallBot]
+- Place Ball [-5x]
+- Place Racket [(-)20x] and rename [RacketLeft,RacketRight]
+- Put [Move Ball] Script on Ball
+- Set Gravity to [0]
+- Put [Box Collider 2D] on 4 walls
+- Create Physics 2D Material
+- Set Friction to [0] and Bounciness to [1]
+- Place new material to Ball
+- Put [Move Racket] on Rackets
+- Set Gravity to [0]
+- Add [player1] [player2] to rackets
+- Set Input Vertical to [player1]
+- Delete Alt Pos/Neg Buttons
+- Duplicate and rename to [player2] and change to [s,w]
+- Set Ball Mass to [0.0001]
+- Set Ball Contraints Freeze Rotation [Z]
+- Create UI Text, double click, rename to [ScoreText]
+- Set Pivot to [Top Center], pos to [0,-130,0]
+- Set Width to [300] and Height to [100]
+- Set Text to [0     0], Font to [55], Align [Center]
+- Set Color to [White]
+- Add [ScoreManager] to ScoreText
+- Add [Score] to Ball
+- Save Scene, Build Settings, Add Open Scene, Build and Run
+
+https://drive.google.com/drive/folders/0BwnA-bvR0BgUU2VWWkhaSmpjcUU?usp=sharing
+
+http://bit.ly/2dvtrXk
